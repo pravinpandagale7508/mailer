@@ -1,0 +1,5 @@
+# Created at 2024-06-21T17:53:13.370
+Boot Manifest-JAR contains absolute paths in classpath 'D:\UTCL_SVN_CODE\Development\DevEnv\Backend\Code Base\ModularApp\AuthenticationModule\AuthenticationService\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+

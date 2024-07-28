@@ -1,0 +1,40 @@
+sheet name: Invoice Template
+max row index: 43
+max column index: 7
+[B3:C3]  INVOICE
+['Invoice Template'!F3] <Your Logo>
+['Invoice Template'!B4] <Your Company Name>
+['Invoice Template'!F4] DATE
+['Invoice Template'!B5] <123 Street Address>
+['Invoice Template'!B6] <City, State, Zip/Post Code>
+['Invoice Template'!F6] INVOICE NO.
+['Invoice Template'!B7] <Phone Number>
+['Invoice Template'!B8] <Email Address>
+[E9:F9] <Payment terms (due on receipt, due in X days)>
+['Invoice Template'!B10] BILL TO
+['Invoice Template'!D10] SHIP TO
+['Invoice Template'!B12] <Contact Name>
+['Invoice Template'!D12] <Name / Dept>
+['Invoice Template'!B13] <Client Company Name>
+['Invoice Template'!D13] <Client Company Name>
+['Invoice Template'!B14] <Address>
+['Invoice Template'!D14] <Address>
+['Invoice Template'!B15] <Phone>
+['Invoice Template'!D15] <Phone>
+['Invoice Template'!B16] <Email>
+[B19:C19] DESCRIPTION
+['Invoice Template'!D19] QTY
+['Invoice Template'!E19] UNIT PRICE
+['Invoice Template'!F19] TOTAL
+['Invoice Template'!B31] Remarks / Payment Instructions:
+['Invoice Template'!E31] SUBTOTAL
+['Invoice Template'!E32] DISCOUNT
+['Invoice Template'!F32] 0.0
+['Invoice Template'!E33] SUBTOTAL LESS DISCOUNT
+['Invoice Template'!E34] TAX RATE
+['Invoice Template'!F34] 0.0
+['Invoice Template'!E35] TOTAL TAX
+['Invoice Template'!E36] SHIPPING/HANDLING
+['Invoice Template'!F36] 0.0
+['Invoice Template'!E37] Balance Due
+--------
