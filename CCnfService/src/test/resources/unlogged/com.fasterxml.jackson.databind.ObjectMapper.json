@@ -1,0 +1,33 @@
+{
+  "classname" : "com.fasterxml.jackson.databind.ObjectMapper",
+  "storedCandidateMap" : { },
+  "declaredMockMap" : {
+    "com.fasterxml.jackson.databind.ObjectMapper#readValue#(Ljava/lang/String;Ljava/lang/Class<T>;)T" : [ {
+      "id" : "b8d88732-16cc-495d-aec3-99ca8d00a691",
+      "name" : "mock response for call to objectMapper.readValue",
+      "fieldTypeName" : "com.fasterxml.jackson.databind.ObjectMapper",
+      "sourceClassName" : "com.utcl.ccnfservice.controller.master.TestCityControllerV",
+      "fieldName" : "objectMapper",
+      "methodName" : "readValue",
+      "whenParameter" : [ {
+        "name" : "content",
+        "type" : "ANY_OF_TYPE",
+        "value" : "java.lang.String"
+      }, {
+        "name" : "valueType",
+        "type" : "ANY_OF_TYPE",
+        "value" : "java.lang.Class<com.utcl.ccnfservice.entity.master.City>"
+      } ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "{\"id\": \"0\", \"i2TqId\": \"0\", \"cityName\": \"string\", \"cityDesc\": \"string\", \"createdDate\": \"2024-07-15T15:06:10.239321300\", \"updatedDate\": \"2024-07-15T15:06:10.240317400\", \"createdBy\": \"string\", \"updatedBy\": \"string\"}",
+          "returnValueType" : "REAL",
+          "className" : "com.utcl.ccnfservice.entity.master.City"
+        },
+        "methodExitType" : "NORMAL"
+      } ],
+      "methodHashKey" : "com.fasterxml.jackson.databind.ObjectMapper#readValue#(Ljava/lang/String;Ljava/lang/Class<T>;)T"
+    } ]
+  }
+}

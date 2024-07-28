@@ -1,0 +1,52 @@
+{
+  "classname" : "com.utcl.ccnfservice.service.master.CityService",
+  "storedCandidateMap" : { },
+  "declaredMockMap" : {
+    "com.utcl.ccnfservice.service.master.CityService#getCityById#(Ljava/lang/Long;)Lcom/utcl/ccnfservice/entity/master/City;" : [ {
+      "id" : "3521378b-aa56-4494-b7c1-c0c4f987146e",
+      "name" : "mock response for call to cityService.getCityById",
+      "fieldTypeName" : "com.utcl.ccnfservice.service.master.CityService",
+      "sourceClassName" : "com.utcl.ccnfservice.controller.master.CityController",
+      "fieldName" : "cityService",
+      "methodName" : "getCityById",
+      "whenParameter" : [ {
+        "name" : "id",
+        "type" : "ANY_OF_TYPE",
+        "value" : "long"
+      } ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "{\"id\": \"0\", \"i2TqId\": \"0\", \"cityName\": \"string\", \"cityDesc\": \"string\", \"createdDate\": \"2024-07-15T14:59:44.087628300\", \"updatedDate\": \"2024-07-15T14:59:44.087628300\", \"createdBy\": \"string\", \"updatedBy\": \"string\"}",
+          "returnValueType" : "REAL",
+          "className" : "com.utcl.ccnfservice.entity.master.City"
+        },
+        "methodExitType" : "NORMAL"
+      } ],
+      "methodHashKey" : "com.utcl.ccnfservice.service.master.CityService#getCityById#(Ljava/lang/Long;)Lcom/utcl/ccnfservice/entity/master/City;"
+    } ],
+    "com.utcl.ccnfservice.service.master.CityService#addCityDetails#(Lcom/utcl/dto/ccnf/CityDto;)Lcom/utcl/dto/ccnf/CityDto;" : [ {
+      "id" : "7f28f4d6-0cf1-4b01-a3e9-b53edee5b94f",
+      "name" : "mock response for call to cityService.addCityDetails",
+      "fieldTypeName" : "com.utcl.ccnfservice.service.master.CityService",
+      "sourceClassName" : "com.utcl.ccnfservice.controller.master.CityController",
+      "fieldName" : "cityService",
+      "methodName" : "addCityDetails",
+      "whenParameter" : [ {
+        "name" : "cityDto",
+        "type" : "ANY_OF_TYPE",
+        "value" : "com.utcl.dto.ccnf.CityDto"
+      } ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "{\"id\": \"0\", \"i2TqId\": \"0\", \"cityName\": \"string\", \"cityDesc\": \"string\", \"createdDate\": \"2024-07-15T15:01:01.187333800\", \"updatedDate\": \"2024-07-15T15:01:01.188331500\", \"createdBy\": \"string\", \"updatedBy\": \"string\"}",
+          "returnValueType" : "REAL",
+          "className" : "com.utcl.dto.ccnf.CityDto"
+        },
+        "methodExitType" : "NORMAL"
+      } ],
+      "methodHashKey" : "com.utcl.ccnfservice.service.master.CityService#addCityDetails#(Lcom/utcl/dto/ccnf/CityDto;)Lcom/utcl/dto/ccnf/CityDto;"
+    } ]
+  }
+}

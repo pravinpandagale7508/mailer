@@ -1,0 +1,29 @@
+{
+  "classname" : "com.utcl.ccnfservice.service.master.I2TalukaService",
+  "storedCandidateMap" : { },
+  "declaredMockMap" : {
+    "com.utcl.ccnfservice.service.master.I2TalukaService#getI2TalukabyI2DistricsIds#(Ljava/util/List<Ljava/lang/Long;>;)Ljava/util/List<Lcom/utcl/ccnfservice/entity/master/I2Taluka;>;" : [ {
+      "id" : "abd0adcf-3889-47e9-940a-b0d59cead50d",
+      "name" : "mock response for call to i2TalukaService.getI2TalukabyI2DistricsIds",
+      "fieldTypeName" : "com.utcl.ccnfservice.service.master.I2TalukaService",
+      "sourceClassName" : "com.utcl.ccnfservice.controller.master.I2TalukaController",
+      "fieldName" : "i2TalukaService",
+      "methodName" : "getI2TalukabyI2DistricsIds",
+      "whenParameter" : [ {
+        "name" : "geoDistId",
+        "type" : "ANY_OF_TYPE",
+        "value" : "java.util.List"
+      } ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "[{\"id\": \"8\", \"i2DistId\": \"0\", \"talukaName\": \"string\", \"talukaDesc\": \"string\", \"createdDate\": \"2024-07-15T17:21:08.329122200\", \"updatedDate\": \"2024-07-15T17:21:08.329122200\", \"createdBy\": \"string\", \"updatedBy\": \"string\"}]",
+          "returnValueType" : "REAL",
+          "className" : "java.util.List<com.utcl.ccnfservice.entity.master.I2Taluka>"
+        },
+        "methodExitType" : "NORMAL"
+      } ],
+      "methodHashKey" : "com.utcl.ccnfservice.service.master.I2TalukaService#getI2TalukabyI2DistricsIds#(Ljava/util/List<Ljava/lang/Long;>;)Ljava/util/List<Lcom/utcl/ccnfservice/entity/master/I2Taluka;>;"
+    } ]
+  }
+}

@@ -1,0 +1,29 @@
+openapi: 3.0.2
+
+
+info:
+  title: Swagger Petstore - OpenAPI 3.0
+  description: |-
+    Something about your project.
+  license:
+    name: Apache 2.0
+    url: http://www.apache.org/licenses/LICENSE-2.0.html
+  version: 0.0.1-SNAPSHOT
+externalDocs:
+  description: Find out more about Swagger
+  url: http://swagger.io
+
+paths:
+  /example:
+    get:
+      tags:
+        - example
+      summary: Example endpoint that returns hello-world.
+      operationId: sayHelloToWorld
+      responses:
+        200:
+          description: "Literally returns 'Hello world'. Innovative, I know."
+          content:
+            text/plain:
+              schema:
+                type: string

@@ -1,0 +1,29 @@
+{
+  "classname" : "com.utcl.ccnfservice.service.master.I2districtService",
+  "storedCandidateMap" : { },
+  "declaredMockMap" : {
+    "com.utcl.ccnfservice.service.master.I2districtService#getI2districtByDepotId#(Ljava/util/List<Ljava/lang/Long;>;)Ljava/util/List<Lcom/utcl/ccnfservice/entity/master/I2district;>;" : [ {
+      "id" : "5e1502da-ce13-4cbe-99a8-214cee4ed304",
+      "name" : "mock response for call to i2districtService.getI2districtByDepotId",
+      "fieldTypeName" : "com.utcl.ccnfservice.service.master.I2districtService",
+      "sourceClassName" : "com.utcl.ccnfservice.controller.master.I2districtController",
+      "fieldName" : "i2districtService",
+      "methodName" : "getI2districtByDepotId",
+      "whenParameter" : [ {
+        "name" : "depotId",
+        "type" : "ANY_OF_TYPE",
+        "value" : "java.util.List"
+      } ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "[{\"distId\": \"0\", \"depotId\": \"0\", \"distName\": \"string\", \"distDisc\": \"string\", \"createdDate\": \"2024-07-15T17:23:19.503417300\", \"updatedDate\": \"2024-07-15T17:23:19.505418700\", \"createdBy\": \"string\", \"updatedBy\": \"string\"}]",
+          "returnValueType" : "REAL",
+          "className" : "java.util.List<com.utcl.ccnfservice.entity.master.I2district>"
+        },
+        "methodExitType" : "NORMAL"
+      } ],
+      "methodHashKey" : "com.utcl.ccnfservice.service.master.I2districtService#getI2districtByDepotId#(Ljava/util/List<Ljava/lang/Long;>;)Ljava/util/List<Lcom/utcl/ccnfservice/entity/master/I2district;>;"
+    } ]
+  }
+}

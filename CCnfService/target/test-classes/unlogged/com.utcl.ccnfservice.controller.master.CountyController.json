@@ -1,0 +1,29 @@
+{
+  "classname" : "com.utcl.ccnfservice.controller.master.CountyController",
+  "storedCandidateMap" : { },
+  "declaredMockMap" : {
+    "com.utcl.ccnfservice.controller.master.CountyController#getCountyById#(J)Lcom/utcl/ccnfservice/entity/master/County;" : [ {
+      "id" : "763a8816-2ffe-44b6-b0f5-5c5f170c01a6",
+      "name" : "mock response for call to countyController.getCountyById",
+      "fieldTypeName" : "com.utcl.ccnfservice.controller.master.CountyController",
+      "sourceClassName" : "com.utcl.ccnfservice.controller.master.TestCountyControllerV",
+      "fieldName" : "countyController",
+      "methodName" : "getCountyById",
+      "whenParameter" : [ {
+        "name" : "agentId",
+        "type" : "ANY_OF_TYPE",
+        "value" : "int"
+      } ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "{\"id\": \"0\", \"cityId\": \"0\", \"countyName\": \"string\", \"countyDesc\": \"string\", \"createdDate\": \"2024-07-12T18:48:04.639994700\", \"updatedDate\": \"2024-07-12T18:48:04.639994700\", \"createdBy\": \"string\", \"updatedBy\": \"string\"}",
+          "returnValueType" : "REAL",
+          "className" : "com.utcl.ccnfservice.entity.master.County"
+        },
+        "methodExitType" : "NORMAL"
+      } ],
+      "methodHashKey" : "com.utcl.ccnfservice.controller.master.CountyController#getCountyById#(J)Lcom/utcl/ccnfservice/entity/master/County;"
+    } ]
+  }
+}

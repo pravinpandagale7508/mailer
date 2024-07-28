@@ -1,0 +1,29 @@
+{
+  "classname" : "com.utcl.ccnfservice.repository.transaction.CCnfLoiRepo",
+  "storedCandidateMap" : { },
+  "declaredMockMap" : {
+    "com.utcl.ccnfservice.repository.transaction.CCnfLoiRepo#save#(Lcom/utcl/ccnfservice/entity/transaction/CCnfLoi;)Lcom/utcl/ccnfservice/entity/transaction/CCnfLoi;" : [ {
+      "id" : "ab026be8-a4e5-4b26-b180-199456175ca0",
+      "name" : "mock response for call to ccnfLoiRepo.save",
+      "fieldTypeName" : "com.utcl.ccnfservice.repository.transaction.CCnfLoiRepo",
+      "sourceClassName" : "com.utcl.ccnfservice.service.transaction.CcnfTransactionService",
+      "fieldName" : "ccnfLoiRepo",
+      "methodName" : "save",
+      "whenParameter" : [ {
+        "name" : "entity",
+        "type" : "ANY_OF_TYPE",
+        "value" : "com.utcl.ccnfservice.entity.transaction.CCnfLoi"
+      } ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "{\"loiId\": \"0\", \"regionIds\": [\"0\"], \"depotIds\": [\"0\"], \"i2Dists\": [\"0\"], \"agentId\": \"0\", \"ccnfType\": \"string\", \"agreementStartDate\": \"2024-07-12T17:58:05.467739500\", \"agreementEndDate\": \"2024-07-12T17:58:05.467739500\", \"billingCycleType\": \"string\", \"billingCycleStartDate\": \"2024-07-12T17:58:05.467739500\", \"billingCycleEndDate\": \"2024-07-12T17:58:05.467739500\", \"additonalCommisionEnable\": \"true\", \"additonalcommisionamount\": \"0\", \"gubtEnable\": \"true\", \"gubtPlantCode\": \"string\", \"gubtCommision\": \"0\", \"interCompanySalesEnable\": \"true\", \"interCompanySaleCommision\": \"0\", \"interUnitSalesEnable\": \"true\", \"interUnitSalesCommision\": \"0\", \"interUnitSalesToOther\": \"0\", \"interUnitSalesFromOther\": \"0\", \"reduceCommisionEnable\": \"true\", \"reduceCommisionValue\": \"0\", \"fixedRentEnable\": \"true\", \"minFixedRent\": \"0\", \"maxFixedRent\": \"0\", \"createdDate\": \"2024-07-12T17:58:05.468737\", \"updatedDate\": \"2024-07-12T17:58:05.468737\", \"createdBy\": \"string\", \"updatedBy\": \"string\", \"minCommitionRange\": \"0\", \"maxCommitionRange\": \"0\", \"isMetroCommition\": \"true\", \"metroCommitionVal\": \"0\", \"isMinimumCommition\": \"true\", \"minimunSlabCommition\": \"0\", \"gubtPlantStanderdComm\": \"0\", \"isGubtHandledByCCnf\": \"true\", \"gubtPlantRate\": \"string\", \"interCompanySaleCommition\": \"0\", \"isInterCompanySale\": \"true\", \"isInterunitSale\": \"true\", \"interunitSaleCommition\": \"0\", \"isOtherDepoCommission\": \"true\", \"salesToOtherDepoComm\": \"0\", \"salesFromOtherDepoComm\": \"0\", \"isDeduOnDirSales\": \"true\", \"slabRangeFrom\": \"0\", \"slabRangeTo\": \"0\", \"isReducedCommByComp\": \"true\", \"reducedCommission\": \"0\", \"totalsalesQty\": \"0\", \"totalDirectSales\": \"0\", \"perOnDirectSales\": \"0\"}",
+          "returnValueType" : "REAL",
+          "className" : "com.utcl.ccnfservice.entity.transaction.CCnfLoi"
+        },
+        "methodExitType" : "NORMAL"
+      } ],
+      "methodHashKey" : "com.utcl.ccnfservice.repository.transaction.CCnfLoiRepo#save#(Lcom/utcl/ccnfservice/entity/transaction/CCnfLoi;)Lcom/utcl/ccnfservice/entity/transaction/CCnfLoi;"
+    } ]
+  }
+}
